@@ -1,0 +1,11 @@
+/*regras apliocadas a seletores de elementos, sem classe ou id*/
+input[type="text"],[type="email"],[type="password"]{
+	border-radius:5px;
+	border-color:#838B83;
+}
+main{
+	position:relative;
+	width:1100px;
+	margin-left:130px;
+	
+}

@@ -1,0 +1,53 @@
+/*para definição de cores, imagens e icones*/
+.entrar{
+    background-color:#1C1C1C;
+}
+.cadastrar{
+	background-color:#1C1C1C;
+}
+.form_entrar{
+	background-color:#CD0000;
+}
+.form_cadastrar{
+	background-color:#CD0000;
+}
+.main_conteudo img{
+	height:320px;
+	width:230px;
+}
+main{
+	background-color:#CD0000;
+}
+section{
+	background-color:#1C1C1C;
+}
+header, nav{
+	background-color:#9C9C9C;
+}
+.form_entrar .username{
+	background-color:#1C1C1C;
+}
+.form_entrar .senha{
+	background-color:#1C1C1C;
+}
+.form_entrar .submit{
+	background-color:#1C1C1C;
+	color:#FFF;
+}
+.form_cadastrar .nome, .form_cadastrar .sobrenome,.form_cadastrar .email,.form_cadastrar .senha,.form_cadastrar .username{
+	background-color:#1C1C1C;
+}
+.form_cadastrar .submit{
+	background-color:#1C1C1C;
+	color:#FFF;
+}
+.topo,.todas{
+	background-color:rgba(255,255,255,0.7);
+	color:#000;
+}
+.main-categoria{
+	background-color:#FFF;
+}
+#main_info{
+	background-color:rgba(255,255,255,0.9);
+}

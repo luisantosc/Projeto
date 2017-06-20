@@ -1,0 +1,93 @@
+/*regras para o bloco (objetos)*/
+.form_entrar{
+	border: solid 1px #000;
+	width:450px;
+	padding:80px;
+	clip-path:polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+}
+.form_cadastrar{
+	border: solid 1px #000;
+	width:550px;
+	padding:60px;
+	clip-path:polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+}
+header{
+	border-bottom: 1px solid #ccc;
+	height:150px;
+}
+nav{
+	border-bottom: 1px solid #ccc;
+	height:50px;
+}
+.header_menu a{
+	border-left:0.5px solid #ccc;
+	height:50px;
+	padding:10px;
+	color:#000;
+	text-decoration:none;
+	font-size:1.4em;
+	font-family: "Lithograph",monospace;
+	
+	
+}
+.header_menu a:last-child{
+	border-right:0.5px solid #ccc;
+	
+}
+.header_menu{
+	position:relative;
+	height:50px;
+}
+
+.header_menu a:link{
+	text-decoration:none;
+}
+main{
+	height:1560px;
+}
+.main-todas{
+	height:4090px;
+}
+.form_entrar .username{
+	padding:5px;
+	border-radius:0;
+	border:none;
+}
+.form_entrar .senha{
+	padding:5px;
+	border-radius:0;
+	border:none;
+}
+.form_entrar .submit{
+	border: 1px solid #000;
+	padding:5px;
+}
+.form_cadastrar .nome, .form_cadastrar .sobrenome,.form_cadastrar .email,.form_cadastrar .senha,.form_cadastrar .username{
+	padding:5px;
+	border-radius:0;
+	border:none;
+}
+.form_cadastrar .submit{
+	border: 1px solid #000;
+	padding:5px;
+}
+.escolhido{
+	border-bottom: 2.5px solid #1C1C1C;
+}
+.header_search input{
+	padding:5px;
+	border-radius:4px;
+	border-color:#ccc;
+}
+.topo:link,.todas:link{
+	text-decoration:none;
+	padding:5px;
+	border-radius:5px;
+}
+.todas:link{
+	padding:10px;
+}
+#main_info{
+	padding:50px;
+	border-radius:15px;
+}

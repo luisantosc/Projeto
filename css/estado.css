@@ -1,0 +1,16 @@
+/*regras para incrementar os elementos */
+.header_menu{
+	list-style:none;
+}
+.main_conteudo img:hover{
+	transform:scale(1.1);
+}
+.header_menu a:hover{
+	border-bottom: 2.5px solid #1C1C1C;
+	color: #000;
+}
+.topo:hover,.todas:hover{
+	color: #000;
+}
+
+
