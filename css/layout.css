@@ -1,4 +1,7 @@
 /*posicionamento de elementos e modulos*/
+nav{
+	position:relative;
+}
 .form_entrar{
 	position:relative;
 	margin-top:150px;
@@ -38,8 +41,12 @@ header .btn{
 	float:left;
 	vertical-align:center;
 }
-.header_menu{
-	margin-left:480px;
+@media only screen and (min-width:800px){
+	.header_menu{
+		position:absolute !important;
+		left:450px;
+		
+	}
 }
 .form_entrar .username{
 	position:absolute;
@@ -115,4 +122,17 @@ header .btn{
 	left:400px;
 	position:fixed;
 	display:none;
+}
+.item img{
+	float:left;
+	margin:20px;
+}
+.carousel-inner{
+	position:relative;
+	left:120px;
+	
+}
+.carousel{
+	position:relative;
+	left:30px;
 }

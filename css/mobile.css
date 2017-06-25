@@ -1,6 +1,16 @@
-@viewport
+@media (max-width:600px){
  nav{
-	 position:absolute;
-	 left:150px;
-	 padding:10px;
+	width:650px !important;
+	margin: 0 auto !important;
+	position:fixed;
+	
  }
+ header{
+	 width:650px !important;
+	 margin: 0 auto !important;
+ }
+ .header_menu{
+	position:absolute !important;
+	left:120px !important;
+ }
+}

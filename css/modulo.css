@@ -14,10 +14,12 @@
 header{
 	border-bottom: 1px solid #ccc;
 	height:150px;
+	width:100%;
 }
 nav{
 	border-bottom: 1px solid #ccc;
 	height:50px;
+	width:100%;
 }
 .header_menu a{
 	border-left:0.5px solid #ccc;
@@ -37,6 +39,8 @@ nav{
 .header_menu{
 	position:relative;
 	height:50px;
+	width:450px;
+	padding-left:0;
 }
 
 .header_menu a:link{
@@ -90,4 +94,18 @@ main{
 #main_info{
 	padding:50px;
 	border-radius:15px;
+}
+.item img{
+	height:350px !important;
+	width:230px;
+}
+.item{
+	width:900px;
+}
+.carousel{
+	padding: 40px 0px;
+	width:1020px;
+	
+	
+	
 }
