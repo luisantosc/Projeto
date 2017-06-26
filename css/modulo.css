@@ -1,4 +1,10 @@
 /*regras para o bloco (objetos)*/
+h1{
+	margin-top:0 !important;
+}
+.entrar{
+	height:800px;
+}
 .form_entrar{
 	border: solid 1px #000;
 	width:450px;
@@ -15,6 +21,9 @@ header{
 	border-bottom: 1px solid #ccc;
 	height:150px;
 	width:100%;
+}
+.logo{
+	width:200px;
 }
 nav{
 	border-bottom: 1px solid #ccc;
@@ -47,7 +56,10 @@ nav{
 	text-decoration:none;
 }
 main{
-	height:1560px;
+	height:800px;
+}
+.main-series{
+	height:1540px;
 }
 .main-todas{
 	height:4090px;
@@ -108,4 +120,40 @@ main{
 	
 	
 	
+}
+.description{
+	position:relative;
+	margin-bottom:60px;
+	width:280px;
+	left:20px;
+	top:30px;
+	padding-bottom:90px;
+	right:20px;
+	border-bottom:1px solid #ccc;
+}
+.option-link:link,.description-more:link{
+	text-decoration:none !important;
+	color:#1C1C1C;
+}
+.option-link:hover{
+	text-decoration:none !important;
+	color:#1C1C1C !important;
+	
+}
+.option-link{
+	text-decoration:none;
+	font-size:1.5em;
+	color:#1C1C1C;
+	
+}
+.description-more{
+	text-decoration:none;
+	background-color:rgba(255,255,255,0.7);
+	padding:10px;
+	border-radius:10px;
+}
+@media only screen and (min-width:800px){
+.mobile-navegador{
+	display:none !important;
+}
 }

@@ -3,17 +3,19 @@
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width"/>
+		<link rel="stylesheet" href="./css/mobile.css" media="(max-width:600px)"/>
 		<title> MENU </title>
 		<link rel="stylesheet" href="./css/layout.css"/>
 		<link rel="stylesheet" href="./css/modulo.css"/>
 		<link rel="stylesheet" href="./css/estado.css"/>
 		<link rel="stylesheet" href="./css/temas.css"/>
 		<link rel="stylesheet" href="./css/base.css"/>
-		<link rel="stylesheet" href="./css/mobile.css" media="(max-width:600px)"/>
+		
 		<link rel="stylesheet" href="./bootstrap/css/bootstrap.css"/>
 		<script>
 			function aparece(id){
-				document.getElementById("main_info").style.display="block"; 
+				var src= var id;
+				document.getElementById(src).style.display="block"; 
 			}
 		
 		</script>
@@ -22,14 +24,14 @@
 	<body>
 		<a name="topo"></a>
 		<header>
-			<img class="logo" src=# />
+			<img class="logo" src="./posters/logoluso.jpg" />
 			<a class="btn btn-default 1" href="cadastrar.html" role="button">Cadastrar</a>
 			<a class="btn btn-default 1" href="entrar.html" role="button">Entrar</a>
 			<div class="header_search">
-			<input type="search" class="hidden-xs" size="40"/><span class="glyphicon glyphicon-search hidden-xs"></span>
+			<input type="search" size="40"/><span class="glyphicon glyphicon-search"></span>
 			</div>
 		</header>
-		<nav>
+		<nav class="index-nav hidden-xs">
 				<ul class="header_menu">
 					<a href="./index.html"class="escolhido">MENU</a>
 					<a href=#>INFO</a>
@@ -37,64 +39,32 @@
 					<a href="./categorias.html">CATEGORIAS</a>
 				</ul>		
 		</nav>
-		<section class="hidden-xs">
+		<section>
 		<a href="#topo" class="topo hidden-xs"> Ir Para o Topo</a>
 			<main>
-			
-				<div class="main_conteudo">
+				<article>
+					<div class="description">
+						<h1>Nome do site</h1>
+						<p>Descrissão</p>
+						<a href="./info.html" class="description-more">Saiba mais</a>
+					</div>
+					<div class="options">
+						<ul>
+							<div class="conteiner"><span class="glyphicon glyphicon-list"></span><a href="./series.html" class="option-link"><li>Ver séries</li></a></div>
+							<div class="conteiner"><span class="glyphicon glyphicon-list"></span><a href="#" class="option-link"><li>Ver perfil</li></a></div>
+						</ul>
 					<div>
-						<img src="./posters/himym.png" onclick="aparece(main_info)"/>
-					</div>
-					<div>
-						<img src="./posters/b&b.jpg"/>
-						
-					</div>
-					<div>
-						<img src="./posters/bm.jpg"/>
-						
-					</div>
-				</div>
-				<div class="main_conteudo">
-					<div>
-						<img src="./posters/dd.jpg"/>
-					</div>
-					<div>
-						<img src="./posters/dexter.jpg"/>
-						
-					</div>
-					<div>
-						<img src="./posters/ga.jpg"/>
-					</div>
-				</div>
-				<div class="main_conteudo">
-					<div>
-						<img src="./posters/twd.jpg"/>
-					</div>
-					<div>
-						<img src="./posters/trw.jpg"/>
-						
-					</div>
-					<div>
-						<img src="./posters/tw.jpg"/>
-					</div>
-				</div>
-				<div class="main_conteudo">
-					<div>
-						<img src="./posters/zoo.jpg"/>
-					</div>
-					<div>
-						<img src="./posters/supernatural.jpg"/>
-						
-					</div>
-					<div>
-						<img src="./posters/st.jpg"/>
-					</div>
-				</div>
-				<div id="main_info">
-					<p>How I met your mother</p>
-					</div>
-				<a class="todas" href="./todas.html">Ver Mais</a>
+				</article>
+				
 			</main>
+			<div class="mobile-navegador">
+				<ul class="header_menu">
+					<a href="./index.html"class="escolhido">MENU</a>
+					<a href=#>INFO</a>
+					<a href="./minhas.html">MINHAS SÉRIES</a>
+					<a href="./categorias.html">CATEGORIAS</a>
+				</ul>		
+			</div>
 		</section>
 		<footer >
 			

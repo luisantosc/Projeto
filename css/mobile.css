@@ -1,9 +1,17 @@
 @media (max-width:600px){
- nav{
+ .mobile-navegador{
 	width:650px !important;
 	margin: 0 auto !important;
-	position:fixed;
-	
+	top:1110px;
+	position:fixed !important; 
+	border-bottom: 1px solid #ccc !important;
+	height:190px !important;
+	width:100% !important;	
+	background-color:#9C9C9C !important;
+	 
+ }
+ .mobile-navegador a{
+	padding:10px !important;
  }
  header{
 	 width:650px !important;
@@ -13,4 +21,67 @@
 	position:absolute !important;
 	left:120px !important;
  }
+ .entrar{
+	background:#fff !important; 
+ }
+ .cadastrar{
+	background:#fff !important; 
+ }
+ main{
+	background:#CD0000 !important; 
+	width:650px !important;
+	margin-left:0 !important;
+	height: 1900px !important;
+	position:relative !important;
+	
+}
+.todas{
+	bottom:60px;
+}
+.main-todas{
+	height: 5300px !important;
+}	
+ .form_entrar{
+	 position:absolute  !important;
+	 left:100px;
+	 top:300px !important;
+	 padding:100px 100px!important;
+ }
+ .form_cadastrar{
+	 position:absolute  !important;
+	 left:50px;
+	 top:300px !important;
+ }
+ .btn{
+	 padding:10px 15px !important;
+	 font-size:1.5em !important; 
+ }
+ .form_entrar input, .form_cadastrar input{
+	 font-size:1.5em !important; 
+ }
+ .form_entrar .username,.form_entrar .senha{ 
+	width:350px  !important;
+ }
+.form_cadastrar .nome, .form_cadastrar .sobrenome,.form_cadastrar .email,.form_cadastrar .senha,.form_cadastrar .username{
+	width:400px !important;
+}
+.form_cadastrar .submit{
+	top: 260px !important;
+	left:70px !important;
+}
+.header_search{
+	float: right!important;
+	left:230px !important;
+}
+.main_conteudo img{
+	height:250px;
+	width:170px;
+}
+.main_conteudo{
+	right:20px;
+}
+.main-entrar,.main-cadastrar{
+	background-color:#C10000 !important;
+
+}
 }

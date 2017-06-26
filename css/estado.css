@@ -12,5 +12,8 @@
 .topo:hover,.todas:hover{
 	color: #000;
 }
-
+.description-more:hover{
+	background-color:rgba(250,250,250,0.7);
+	
+}
 

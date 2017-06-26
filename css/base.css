@@ -9,3 +9,11 @@ main{
 	margin-left:130px;
 	
 }
+article{
+	height:inherit;
+	width:321px;
+	border-right:1px solid #ccc;
+}
+li{
+	list-style:none;
+}

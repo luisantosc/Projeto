@@ -1,24 +1,23 @@
 /*para definição de cores, imagens e icones*/
 .entrar{
     background:url("../wallpaper/lost.jpg") no-repeat -100px 0;
-	height:800px;
+	
 }
 .cadastrar{
-	background-color:#1C1C1C;
+	background:url("../wallpaper/lost.jpg") no-repeat -100px 0;
+	height:800px;
 }
 .form_entrar{
 	background-color:#ccc;
 	border:#CD0000;
 }
 .form_cadastrar{
-	background-color:#CD0000;
+	background-color:#ccc;
+	border:#CD0000;
 }
 .main_conteudo img{
 	height:320px;
 	width:230px;
-}
-main{
-	background-color:#CD0000;
 }
 section{
 	background-color:#1C1C1C;
@@ -52,4 +51,13 @@ header, nav{
 }
 #main_info{
 	background-color:rgba(255,255,255,0.9);
+}
+main{
+	background-color:#C10000;
+}
+@media only screen and (min-width:800px){
+.main-entrar,.main-cadastrar{
+	background:none !important;
+
+}
 }

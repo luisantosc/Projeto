@@ -2,6 +2,7 @@
 nav{
 	position:relative;
 }
+
 .form_entrar{
 	position:relative;
 	top:200px;
@@ -9,12 +10,15 @@ nav{
 }
 .form_cadastrar{
 	position:relative;
-	margin-top:100px;
-	margin-left:430px;
+	top:150px;
+	margin:0 auto;
 	
 }
 .logo{
 	display:inline;
+	position:relative;
+	top:15px;
+	left:40px;
 }
 header .btn{
 	float:right;
@@ -136,3 +140,27 @@ header .btn{
 	position:relative;
 	left:30px;
 }
+.description-more{
+	position:absolute;
+	right:10px;
+	bottom:25px;
+}
+.glyphicon-list{
+	float:left;
+	margin-right:10px;
+	position:absolute;
+	top:10px;
+}
+.option-link{
+	float:left;
+	position:relative;
+	top:-5px;
+	
+}
+.conteiner{
+	clear:left;
+	position:relative;
+	
+}
+
+
