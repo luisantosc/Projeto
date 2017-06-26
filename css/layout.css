@@ -4,8 +4,8 @@ nav{
 }
 .form_entrar{
 	position:relative;
-	margin-top:150px;
-	margin-left:480px;
+	top:200px;
+	margin:0 auto;
 }
 .form_cadastrar{
 	position:relative;
@@ -123,7 +123,7 @@ header .btn{
 	position:fixed;
 	display:none;
 }
-.item img{
+.carousel-inner img{
 	float:left;
 	margin:20px;
 }

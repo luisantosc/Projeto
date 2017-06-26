@@ -1,12 +1,14 @@
 /*para definição de cores, imagens e icones*/
 .entrar{
-    background-color:#1C1C1C;
+    background:url("../wallpaper/lost.jpg") no-repeat -100px 0;
+	height:800px;
 }
 .cadastrar{
 	background-color:#1C1C1C;
 }
 .form_entrar{
-	background-color:#CD0000;
+	background-color:#ccc;
+	border:#CD0000;
 }
 .form_cadastrar{
 	background-color:#CD0000;

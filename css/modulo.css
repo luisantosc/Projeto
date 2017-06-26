@@ -95,11 +95,11 @@ main{
 	padding:50px;
 	border-radius:15px;
 }
-.item img{
+.carousel-inner img{
 	height:350px !important;
 	width:230px;
 }
-.item{
+.carousel-inner{
 	width:900px;
 }
 .carousel{
