@@ -2,7 +2,7 @@
  .mobile-navegador{
 	width:650px !important;
 	margin: 0 auto !important;
-	top:1110px;
+	top:1105px;
 	position:fixed !important; 
 	border-bottom: 1px solid #ccc !important;
 	height:190px !important;
@@ -71,7 +71,7 @@
 }
 .header_search{
 	float: right!important;
-	left:230px !important;
+	left:220px !important;
 }
 .main_conteudo img{
 	height:250px;
@@ -83,5 +83,8 @@
 .main-entrar,.main-cadastrar{
 	background-color:#C10000 !important;
 
+}
+.escolhido{
+	border-bottom: 2.5px solid #1C1C1C !important;
 }
 }

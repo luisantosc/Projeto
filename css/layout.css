@@ -162,5 +162,16 @@ header .btn{
 	position:relative;
 	
 }
+.description h1,.description p{
+	margin-left:20px;
+	text-align:justify;
+}
+.description p{
+	margin-right:15px;
+	text-indent:15px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:bold;
+	font-size:1.5em;
+}
 
 
