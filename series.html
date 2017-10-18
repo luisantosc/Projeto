@@ -11,7 +11,21 @@
 		<link rel="stylesheet" href="./css/base.css"/>
 		<link rel="stylesheet" href="./css/mobile.css" media="(max-width:600px)"/>
 		<link rel="stylesheet" href="./bootstrap/css/bootstrap.css"/>
+		<script src="./js/series.js"></script>
+		<script src="./js/jquery.min.js"></script>
 		
+		<script>
+			$(function(){
+				$.each(series,function(i,obj){
+					$(".main-series")
+						.append($("<div/>").addClass("main_conteudo")
+						.append($("<img/>")
+							.attr("src",obj.poster)
+							)
+						)
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<a name="topo"></a>
@@ -35,60 +49,6 @@
 		<section>
 		<a href="#topo" class="topo hidden-xs"> Ir Para o Topo</a>
 			<main class="main-series">
-				<div class="main_conteudo">
-					<div>
-						<img src="./posters/himym.png"/>
-					</div>
-					<div>
-						<img src="./posters/b&b.jpg"/>
-						
-					</div>
-					<div>
-						<img src="./posters/bm.jpg"/>
-						
-					</div>
-				</div>
-				<div class="main_conteudo">
-					<div>
-						<img src="./posters/dd.jpg"/>
-					</div>
-					<div>
-						<img src="./posters/dexter.jpg"/>
-						
-					</div>
-					<div>
-						<img src="./posters/ga.jpg"/>
-					</div>
-				</div>
-				<div class="main_conteudo">
-					<div>
-						<img src="./posters/twd.jpg"/>
-					</div>
-					<div>
-						<img src="./posters/trw.jpg"/>
-						
-					</div>
-					<div>
-						<img src="./posters/tw.jpg"/>
-					</div>
-				</div>
-				<div class="main_conteudo">
-					<div>
-						<img src="./posters/zoo.jpg"/>
-					</div>
-					<div>
-						<img src="./posters/supernatural.jpg"/>
-						
-					</div>
-					<div>
-						<img src="./posters/st.jpg"/>
-					</div>
-				</div>
-				<div id="main_info">
-					<p>How I met your mother</p>
-					</div>
-				<a class="todas" href="./todas.html">Ver Mais</a>
-				
 			</main>
 			<div class="mobile-navegador">
 				<ul class="header_menu">
