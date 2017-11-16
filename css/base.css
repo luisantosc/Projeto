@@ -5,15 +5,18 @@ input[type="text"],[type="email"],[type="password"]{
 }
 main{
 	position:relative;
-	width:1100px;
-	margin-left:130px;
+
+	left:250px;
 	
 }
 article{
 	height:inherit;
-	width:321px;
+	position: absolute;
+	width: 770px;
 	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
 }
 li{
 	list-style:none;
+	margin-left: 10px;
 }

@@ -78,21 +78,9 @@ header .btn{
 	bottom:20px;
 	margin: 1px 0;
 }
-.header_search{
-	float:right;
-	position:relative;
-	top:90px;
-	left:155px;
+	
 }
-.header_search input{
-	position:absolute;
-	right:0px;	
-}
-.header_search .glyphicon{
-	position:absolute;
-	right:10px;
-	top:10px;
-}
+
 .topo{
 	position:relative;
 	float:right;
