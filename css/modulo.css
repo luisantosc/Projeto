@@ -59,7 +59,11 @@ nav{
 }
 
 .main-series{
-	height:4500px;
+	height:4200px;
+	width: 1000px;
+}
+.main_conteudo{
+	width:900px;
 }
 .main-todas{
 	height:4090px;

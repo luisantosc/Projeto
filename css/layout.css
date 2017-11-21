@@ -28,7 +28,11 @@ header .btn{
 	margin:5px;
 
 }
-
+.header_search{
+	float: right;
+	right: 20px;
+	position: absolute;
+}
 .main_conteudo img{
 	position:relative;
 	margin-top:50px;
@@ -36,9 +40,13 @@ header .btn{
 	display:inline;
 	float:left;
 }
+.main-series{
+	position: relative;
+	margin: 0 auto;
+}
 .main_conteudo{
 	position:relative;
-	margin-left:85px;
+	margin:0 auto;
 }
 .header_menu a{
 	display:inline;
@@ -161,5 +169,11 @@ header .btn{
 	font-weight:bold;
 	font-size:1.5em;
 }
-
+.serie img{
+	position: relative;
+}
+.fa-plus{
+	position: absolute;
+	top:10px;
+}
 

@@ -9,22 +9,36 @@
 		<link rel="stylesheet" href="./css/estado.css"/>
 		<link rel="stylesheet" href="./css/temas.css"/>
 		<link rel="stylesheet" href="./css/base.css"/>
+		<link rel="stylesheet" href="./font-awesome/css/font-awesome.css"/>
 		<link rel="stylesheet" href="./css/mobile.css" media="(max-width:600px)"/>
 		<link rel="stylesheet" href="./bootstrap/css/bootstrap.css"/>
 		<script src="./js/series.js"></script>
 		<script src="./js/jquery.min.js"></script>
+		<script src="./js/plugins.js"></script>
 		
 		<script>
 			$(function(){
 				$.each(series,function(i,obj){
 					$(".main-series")
 						.append($("<div/>").addClass("main_conteudo")
+						.append($("<div/>").addClass("serie")
+							.attr("id",obj.id)
 						.append($("<img/>")
 							.attr("src",obj.poster)
 							)
+						/*.append($("<i/>")
+							.addClass("fa fa-plus")
+							.attr("aria-hidden","true")
+							)*/
 						)
+					)
 				});
 			});
+			$(".serie").click(function(){
+				var id = $(this).attr("id");
+				add(id,series);
+			});
+
 		</script>
 	</head>
 	<body>
@@ -47,7 +61,7 @@
 				</ul>		
 		</nav>
 		<section>
-		<a href="#topo" class="topo hidden-xs"> Ir Para o Topo</a>
+		<!--<a href="#topo" class="topo hidden-xs"> Ir Para o Topo</a>-->
 			<main class="main-series">
 			</main>
 			<div class="mobile-navegador">
