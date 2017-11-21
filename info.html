@@ -11,44 +11,14 @@
 		<link rel="stylesheet" href="./css/base.css"/>
 		<link rel="stylesheet" href="./font-awesome/css/font-awesome.css"/>
 		<link rel="stylesheet" href="./css/mobile.css" media="(max-width:600px)"/>
+		<link href="https://fonts.googleapis.com/css?family=Cinzel|Lobster|Raleway|Spectral+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Timmana" rel="stylesheet">
 		<link rel="stylesheet" href="./bootstrap/css/bootstrap.css"/>
 		<script src="./js/series.js"></script>
 		<script src="./js/jquery.min.js"></script>
 		<script src="./js/plugins.js"></script>
 		
 		<script>
-			$(function(){
-				minhas=[];
-					$.each(series,function(i,obj){
-					$(".main-series")
-						.append($("<div/>").addClass("main_conteudo")
-						.append($("<div/>").addClass("serie")
-						.append($("<img/>")
-							.attr("src",obj.poster)
-							.attr("id",obj.id)
-							)
-						/*$.append($("<i/>")
-							.addClass("fa fa-plus")
-							.attr("aria-hidden","true")
-							)*/
-						)
-					)
-				});
-			
-			$(".serie img").click(function(){
-				var id = $(this).attr("id");
-				$.each(series,function(i,serie){
-					if(serie.id == id){
-						minhas.push(serie);
-						console.log(minhas);
-					}
-				});
-			});
-			
-				});
-				
-		
-
 		</script>
 	</head>
 	<body>
@@ -59,27 +29,20 @@
 		</header>
 		<nav class="index-nav hidden-xs">
 				<ul class="header_menu">
-					<a href="./index.html"class="escolhido">MENU</a>
-					<a href="./info.html">INFO</a>
+					<a href="./index.html">MENU</a>
+					<a href="./info.html" class="escolhido">INFO</a>
 					<a href="./minhas.html">MINHAS SÉRIES</a>
 					<a href="./categorias.html">CATEGORIAS</a>
 				</ul>		
 		</nav>
-		<section class="section_series">
+		<section>
 		<!--<a href="#topo" class="topo hidden-xs"> Ir Para o Topo</a>-->
-			<main class="main-series">
-			</main>
-			<div class="mobile-navegador">
-				<ul class="header_menu">
-					<a href="./index.html"class="escolhido">MENU</a>
-					<a href=#>INFO</a>
-					<a href="./minhas.html">MINHAS SÉRIES</a>
-					<a href="./categorias.html">CATEGORIAS</a>
-				</ul>		
+			<div class="description">
+				<h1 class="titulo">Seu maior fornecedor de séries!</h1>
+				<p>Luso Séries te permite controlar quais séries você assiste. Basta clicar no link abaixo e adicionar as séries à sua lista. Depois disso, só acompanhar em "Minhas Séries" o que marcou! Divirta-se!</p>
+				<a href="series.html"><button class="info_series">Séries</button></a>
 			</div>
 		</section>
-		<footer >
-			
-		</footer>
+		
 	</body>
 </html>

@@ -17,8 +17,8 @@ nav{
 .logo{
 	display:inline;
 	position:relative;
-	top:15px;
-	left:40px;
+	top:30px;
+	left:60px;
 }
 header .btn{
 	float:right;
@@ -102,11 +102,8 @@ header .btn{
 	left:40px;
 }
 .main-categoria{
-	position:relative;
-	top:50px;
-	right:50px;
-	margin:50px;
-	width:inherit;
+	width:1000px;
+	margin: 0 auto;
 }
 .main-categoria:first-child{
 	margin-top:0;
@@ -158,16 +155,23 @@ header .btn{
 	position:relative;
 	
 }
-.description h1,.description p{
-	margin-left:20px;
-	text-align:justify;
+.titulo{
+	position: relative;
+	top:30px;
+}
+.info_series{
+	position: relative;
+	left:940px;
 }
 .description p{
-	margin-right:15px;
 	text-indent:15px;
 	font-family: 'Josefin Sans', sans-serif;
-	font-weight:bold;
-	font-size:1.5em;
+	font-size:2em;
+	text-align: justify;
+	position: relative;
+	margin: 0 auto;
+	top:90px;
+	padding: 40px 30px;
 }
 .serie img{
 	position: relative;
@@ -176,4 +180,42 @@ header .btn{
 	position: absolute;
 	top:10px;
 }
+.categoria{
+	position: relative;
+	margin-left: 32.5px;
+	margin-bottom: 60px;
+}
+.categoria img{
+	margin-bottom: 20px;
+	margin-left: 60px;
+}
+.welcome{
+	margin-top: 0px;
+	margin: 0 auto;
+	position: relative;
+	top: 60px;
+}
+.option{
+	position: relative;
+	float:left;
+	margin-right: 300px;
+}
+.botoes{
+	margin: 0 auto;
+	position: relative;
+	left: 100px;
+	top:70px;
+}
+.minhas p{
+	position: absolute;
+	top:60px;
+	left: 30px;
+}
+.series p{
+	position: absolute;
+	top:80px;
+	left: 30px;
+}
+
+
 

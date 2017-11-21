@@ -25,7 +25,7 @@ header{
 	
 }
 .logo{
-	width:200px;
+	width:300px;
 }
 nav{
 	
@@ -93,7 +93,6 @@ nav{
 }
 .escolhido{
 	border-bottom: 2.5px solid #1C1C1C;
-	margin-left: 20px;
 }
 .header_search input{
 	padding:5px;
@@ -112,26 +111,23 @@ nav{
 	padding:50px;
 	border-radius:15px;
 }
-.carousel-inner img{
-	height:350px !important;
-	width:230px;
-}
-.carousel{
-	padding: 40px 0px;
-	width:1020px;
-	
-	
-	
-}
+
 .description{
 	position:relative;
-	margin-bottom:60px;
-	width:280px;
-	left:20px;
-	top:30px;
-	padding-bottom:90px;
-	right:20px;
-	border-bottom:1px solid #ccc;
+	
+}
+.description p{
+	width: 800px;
+	height:300px;
+	border-radius: 40px;
+}
+.info_series{
+	padding: 10px;
+	border-radius: 40px;
+}
+.info_series:hover{
+	padding: 15px;
+	transition: 1s;
 }
 .option-link:link,.description-more:link{
 	text-decoration:none !important;
@@ -153,6 +149,31 @@ nav{
 	background-color:rgba(255,255,255,0.7);
 	padding:10px;
 	border-radius:10px;
+}
+.categoria{
+	width: 870px;
+}
+.categoria img{
+	height: 320px;
+    width: 230px;
+}
+.categoria img:hover{
+    transform: scale(1.1);
+}
+.section_categorias,.section_series{
+	height: 100%;
+}
+.welcome{
+	width: 850px;
+}
+.botoes{
+	width: 1000px;
+	height: 200px;
+}
+.option{
+	width: 200px;
+	height: 200px;
+
 }
 @media only screen and (min-width:800px){
 .mobile-navegador{
