@@ -48,10 +48,8 @@ nav{
 	
 }
 .header_menu{
-	position:relative;
 	height:50px;
-	width:450px;
-	padding-left:0;
+	width: 260px;
 }
 
 .header_menu a:link{
@@ -175,7 +173,7 @@ nav{
 	height: 200px;
 
 }
-@media only screen and (min-width:800px){
+@media only screen and (min-width:600px){
 .mobile-navegador{
 	display:none !important;
 }

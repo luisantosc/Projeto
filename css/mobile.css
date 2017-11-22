@@ -1,90 +1,64 @@
 @media (max-width:600px){
- .mobile-navegador{
-	width:650px !important;
-	margin: 0 auto !important;
-	top:1105px;
-	position:fixed !important; 
-	border-bottom: 1px solid #ccc !important;
-	height:190px !important;
-	width:100% !important;	
-	background-color:#9C9C9C !important;
-	 
- }
- .mobile-navegador a{
-	padding:10px !important;
- }
- header{
-	 width:650px !important;
-	 margin: 0 auto !important;
- }
- .header_menu{
-	position:absolute !important;
-	left:120px !important;
- }
- .entrar{
-	background:#fff !important; 
- }
- .cadastrar{
-	background:#fff !important; 
- }
- main{
-	background:#CD0000 !important; 
-	width:650px !important;
-	margin-left:0 !important;
-	height: 1900px !important;
-	position:relative !important;
-	
-}
-.todas{
-	bottom:60px;
-}
-.main-todas{
-	height: 5300px !important;
-}	
- .form_entrar{
-	 position:absolute  !important;
-	 left:100px;
-	 top:300px !important;
-	 padding:100px 100px!important;
- }
- .form_cadastrar{
-	 position:absolute  !important;
-	 left:50px;
-	 top:300px !important;
- }
- .btn{
-	 padding:10px 15px !important;
-	 font-size:1.5em !important; 
- }
- .form_entrar input, .form_cadastrar input{
-	 font-size:1.5em !important; 
- }
- .form_entrar .username,.form_entrar .senha{ 
-	width:350px  !important;
- }
-.form_cadastrar .nome, .form_cadastrar .sobrenome,.form_cadastrar .email,.form_cadastrar .senha,.form_cadastrar .username{
-	width:400px !important;
-}
-.form_cadastrar .submit{
-	top: 260px !important;
-	left:70px !important;
-}
-.header_search{
-	float: right!important;
-	left:220px !important;
-}
-.main_conteudo img{
-	height:250px;
-	width:170px;
-}
-.main_conteudo{
-	right:20px;
-}
-.main-entrar,.main-cadastrar{
-	background-color:#C10000 !important;
-
-}
-.escolhido{
-	border-bottom: 2.5px solid #1C1C1C !important;
-}
+	 body,header,section{
+	 	width: 1300px !important;
+	 	margin: 0 !important;
+	 }
+	 body{
+	 	height: 5200px !important;
+	 }
+	 section{
+	 	height: 100% !important
+	 }
+	 .body-categorias{
+	 	height: 9750px !important;
+	 }
+	 .welcome{
+	 	position: relative;
+	 	top:400px !important;
+	 	text-align: center;
+	 	font-size:15em !important;
+	 }
+	 .series{
+	 	width: 300px !important;
+	 	height: 100px !important;
+	 	top: 330px !important;
+	 	margin-right: 200px !important;
+	 } 
+	 .series p{
+	 	position: absolute !important;
+	 	top: 20px !important;
+	 	left: 50px !important;
+	 	font-size:3em !important;
+	 }
+	 .minhas{
+	 	width: 200px !important;
+	 	height: 100px !important;
+	 	top: 330px !important;
+	 }
+	 .minhas p{
+	 	position: absolute !important;
+	 	top: 20px !important;
+	 	left: 40px !important;
+	 	font-size:3em !important;
+	 }
+	 .index-nav{
+	 	height: 100px !important;
+	 }
+	 .header_menu{
+	 	margin: 0 auto !important;
+	 	width: 700px !important;
+	 }
+	 .header_menu a{
+	 	font-size: 4em !important;
+	 	height: 100px !important;
+	 }
+	 .description p{
+	 	font-size: 5em !important;
+	 	height: 800px !important;
+	 }
+	 .info_series{
+	 	font-size: 4em !important;
+	 	left: 830px  !important;
+	 	bottom: 60px  !important;
+	 }
 }

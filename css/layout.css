@@ -53,7 +53,7 @@ header .btn{
 	float:left;
 	vertical-align:center;
 }
-@media only screen and (min-width:800px){
+@media only screen and (min-width:600px){
 	.header_menu{
 		position:absolute !important;
 		left:450px;
@@ -171,7 +171,7 @@ header .btn{
 	position: relative;
 	margin: 0 auto;
 	top:90px;
-	padding: 40px 30px;
+	padding: 90px 30px;
 }
 .serie img{
 	position: relative;
@@ -208,14 +208,17 @@ header .btn{
 }
 .minhas p{
 	position: absolute;
-	top:60px;
-	left: 30px;
+	top:75px;
+	left: 60px;
 }
 .series p{
 	position: absolute;
 	top:80px;
 	left: 30px;
 }
-
+.header_menu{
+	left:545px;
+	padding-left: 0px;
+}
 
 
